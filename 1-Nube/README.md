@@ -19,7 +19,6 @@
 
 *Para automatizar la normalización de los datos, se implementó AWS EventBridge para programar la ejecución de la tarea de AWS Glue en el primer día de cada mes, a la 01:00 horas.*
 
-![]()
 
 *Una vez completada la normalización de los datos, el archivo resultante en formato Parquet se guarda en un bucket de AWS S3. Sin embargo, el archivo se almacena con un nombre predeterminado generado automáticamente al guardar un archivo Parquet mediante Apache Spark con el formato de compresión Snappy.*
 
